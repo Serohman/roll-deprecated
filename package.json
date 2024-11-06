@@ -1,0 +1,51 @@
+{
+  "name": "@seroh/roll",
+  "version": "0.1.0",
+  "description": "An RPG dice-rolling library with a variety of built-in roll mechanics.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serohman/roll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Serohman/roll/issues"
+  },
+  "homepage": "https://github.com/Serohman/roll",
+  "scripts": {
+    "test": "jest --watch",
+    "build": "tsc",
+    "prettier": "prettier --write ./modules"
+  },
+  "keywords": [
+    "RPG",
+    "dice",
+    "rolling",
+    "dnd",
+    "dungeons-and-dragons",
+    "baldurs-gate",
+    "dice-roller",
+    "advantage",
+    "disadvantage",
+    "tabletop",
+    "TTRPG",
+    "game-development",
+    "typescript",
+    "probability",
+    "critical-hit",
+    "critical-fail",
+    "karmic-dice",
+    "randomizer",
+    "modifiers",
+    "game-mechanics"
+  ],
+  "author": "Serohman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}

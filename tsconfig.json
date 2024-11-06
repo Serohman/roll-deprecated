@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // Redirect output structure to the dist folder
+    "rootDir": "modules", // Specify the root directory of input files
+    "lib": ["esnext"],
+    "allowJs": false,
+    "skipLibCheck": true, // skip type checking of declaration files
+    "strict": true,
+    "noEmit": false, // Allow emitting compiled files
+    "esModuleInterop": true, // Allows default imports from modules with no default export
+    "module": "commonjs", // Set to commonjs for Node.js compatibility
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "resolveJsonModule": true,
+    "isolatedModules": true, // Allow mixed module types
+    "incremental": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["modules/index.ts"], // Include all TypeScript files in the src folder
+  "exclude": ["node_modules", "modules/**/*.test.ts"] // Exclude node_modules directory
+}
