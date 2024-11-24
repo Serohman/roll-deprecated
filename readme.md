@@ -1,5 +1,5 @@
-> [!IMPORTANT]
-> This repository is under active development, and the API is subject to change. Before version 1.0.0, there may be significant updates or modifications to the functionality and structure of the code. Use with caution in production environments and consider pinning your dependency to a specific version.
+> [!WARNING]
+> This repository is no longer maintained and is considered deprecated.
 
 # Dice Rolling Library
 
